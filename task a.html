@@ -1,0 +1,96 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>grid</title>
+	<style type="text/css">
+	.item1{grid-area: image;}	
+	.item2{ grid-area: home;}
+	.item3{ grid-area: about;}
+	.item4{ grid-area: gallery;}
+	.item5{ grid-area: page;}
+	.container{
+		display: grid;
+		grid-template-areas: 'image'
+		'home about gallery page'
+		'home image image image'
+		'about image image image'
+		'gallery image image image'
+		'page image image image';
+		gap: 10px;
+		background-color: lightblue;
+		padding: 10px;
+	}
+
+	.container > div {
+		background-color: hotpink;
+		text-align: center;
+		padding: 20px 0px;
+		font-size: 30px;
+
+	}
+
+		
+
+
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item1">image</div>
+		<div class="item2">home</div>
+		<div class="item3">about</div>
+		<div class="item4">gallery</div>
+		<div class="item5">page</div>
+	</div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'HOME ABOUT GALLERY PAGE';
+    
+
+
+  gap: 1px;
+  background-color: #2196F3;
+  padding: 1px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 2px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Home</div>
+  <div class="item3">About</div>  
+  <div class="item4">GALLERY</div>
+  <div class="item5">PAGE</div>
+</div>
+
+</body>
+</html>
+
+

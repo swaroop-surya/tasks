@@ -1,0 +1,43 @@
+.D{
+	color: solid black;
+	font-family: cursive;
+}
+
+#H{
+	color: blue;
+}
+
+#P{
+	color: blue;
+}
+
+
+#A{
+	color: blue;
+}
+
+
+#M{
+	color: blue;
+}
+
+
+.head{
+	background-color:lightpink;
+	 height: 70px; 
+	 line-height: 70px;
+
+
+}
+
+
+.head a{
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+
+a:hover{
+	background-color: lightskyblue;
+	height: 70px;
+}
